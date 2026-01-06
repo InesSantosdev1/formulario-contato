@@ -2,13 +2,47 @@
 
 body{
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
 
     
 }
 .container{
-    height: 100%;
+    position: relative; /* MUITO IMPORTANTE */
+    display: flex;
+    height: 60%;
+    width: 100%;
+    background-color: brown;
+    
+    
 }
 .ipt{
     display: block;
-    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.582);
+    border-radius: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+form{
+    position: absolute;     /* agora pode usar */
+    right: 40px;            /* empurra pra direita */
+    top: 50%;               /* posição vertical */
+    transform: translateY(-50%); /* centraliza verticalmente */
+  
+    width: 40%;
+    height: 140%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 60px;
+}
+#lMensagem{
+    height: 20%;
+    
+    
+   
 }

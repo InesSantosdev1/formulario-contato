@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: azure;
+    background-color: #eeeeee;
 
     
 }
@@ -14,7 +14,7 @@ body{
     display: flex;
     height: 60%;
     width: 100%;
-    background-color: brown;
+    background-color: #151799;
     
     
 }
@@ -28,6 +28,10 @@ body{
     margin-top: 20px;
     padding: 10px;
 }
+.ipt:focus{
+    outline: none;
+    border-bottom: 2px solid #1d20db;
+}
 form{
     position: absolute;     /* agora pode usar */
     right: 40px;            /* empurra pra direita */
@@ -35,14 +39,31 @@ form{
     transform: translateY(-50%); /* centraliza verticalmente */
   
     width: 40%;
-    height: 140%;
+    height: 130%;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.445);
     padding: 60px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px #00000049;
 }
 #lMensagem{
     height: 20%;
+}
+.btn{
+    background-color: #ffffff;
+    padding: 8px;
+    height: 10%;
+    width: 20%;
+}
+.btn:hover{
+    transition: 0.1s;
+    border: none;
+    border-radius: 5px;
+    background-color: #151799;
+    color: #fff;
+    box-shadow: 3px 3px 8px #00000049;;
     
-    
-   
+    height: 11%;
+    width: 21%;
+
 }

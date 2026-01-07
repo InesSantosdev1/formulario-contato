@@ -12,7 +12,7 @@ body{
     
 }
 .container{
-    position: relative; /* MUITO IMPORTANTE */
+    position: relative;
     display: flex;
     height: 60%;
     width: 100%;
@@ -24,6 +24,7 @@ body{
   font-family: "Francois One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: rgba(0, 0, 0, 0.836);
 }
 .ipt{
     display: block;
@@ -40,10 +41,10 @@ body{
     border-bottom: 2px solid #1d20db;
 }
 form{
-    position: absolute;     /* agora pode usar */
-    right: 40px;            /* empurra pra direita */
-    top: 50%;               /* posição vertical */
-    transform: translateY(-50%); /* centraliza verticalmente */
+    position: absolute;     
+    right: 40px;            
+    top: 50%;               
+    transform: translateY(-50%); 
   
     width: 40%;
     height: 130%;

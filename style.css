@@ -37,6 +37,9 @@ body{
     color: #ffffffc5;
     text-decoration: none;
 }
+.icone{
+    width: 25px;
+}
 .francois-one-regular {
   font-family: "Francois One", sans-serif;
   font-weight: 400;

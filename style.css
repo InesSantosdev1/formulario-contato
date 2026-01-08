@@ -20,6 +20,23 @@ body{
     
     
 }
+.contato{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffffc5;
+    gap: 10px;
+}
+.link{
+    color: #ffffffc5;
+    text-decoration: none;
+}
 .francois-one-regular {
   font-family: "Francois One", sans-serif;
   font-weight: 400;

@@ -77,7 +77,6 @@ form{
     width: 40%;
     height: 130%;
     background-color: white;
-   /* border: 1px solid rgba(0, 0, 0, 0.445);*/
     padding: 60px;
     border-radius: 7px;
     box-shadow: 3px 3px 8px #00000049;
@@ -99,7 +98,6 @@ form{
     color: #fff;
     box-shadow: 3px 3px 8px #00000049;;
     cursor: pointer;
-    height: 11%;
-    width: 21%;
+    transform: scale(1.05);
 
 }
